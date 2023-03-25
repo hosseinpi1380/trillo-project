@@ -1,19 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="item item-1">1</div>
-        <div class="item item-2">2</div>
-        <div class="item item-3">3</div>
-        <div class="item item-4">4</div>
-        <div class="item item-5">5</div>
+        <header class="header">
+            <a href="#">
+                <img src="./img/logo.png" alt="" class="logo">
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" placeholder="search Hotel">
+                <button class="search__button">
+                    <svg class="icon-search icon-svg">
+                        <use xlink:href="img/svg/sprite.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </div>
+            <nav class="navigation">
+                <div class="user__icon-box">
+                    <svg class="icon-bookmark icon-svg">
+                        <use xlink:href="img/svg/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user__icon-notification">7</span>
+
+                </div>
+                <div class="user__icon-box">
+                    <svg class="icon-chat icon-svg">
+                        <use xlink:href="img/svg/sprite.svg#icon-bubbles2"></use>
+                    </svg>
+                    <span class="user__icon-notification">13</span>
+                </div>
+                <div class="user__icon-user">
+                    <img src="/img/user.jpg" alt="jonas schement" class="user__icon-photo icon-svg">
+                    <h2 class="user__icon-name">jonas</h2>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="sidebar">
+                <ul class="sidebar__item">
+                    <li class="sidebar__list sidebar__list--active"><a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/svg/sprite.svg#icon-home3"></use>
+                            </svg>
+                            <span>home </span>
+                        </a></li>
+                    <li class="sidebar__list"><a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/svg/sprite.svg#icon-airplane"></use>
+                            </svg><span>flight </span>
+                        </a></li>
+                    <li class="sidebar__list"><a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/svg/sprite.svg#icon-key"></use>
+                            </svg><span>carrental</span>
+                        </a></li>
+                    <li class="sidebar__list"><a href="#" class="sidebar__link">
+                            <svg class="sidebar__icon">
+                                <use xlink:href="img/svg/sprite.svg#icon-map"></use>
+                            </svg><span>tours</span>
+                        
+                        </a></li>
+                </ul>
+                <div class="legal">
+                    &copy 2017 by trillo all right reserve.
+                </div>
+            </div>
+            <div class="main-content">
+
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
