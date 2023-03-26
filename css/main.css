@@ -329,3 +329,24 @@ body {
     box-shadow: none;
   }
 }
+.bugfix {
+  height: 497px;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.div-1 {
+  background-color: black;
+  grid-area: 2/2/9/8;
+}
+
+.div-2 {
+  grid-area: 2/9/5/12;
+  background-color: black;
+}
+
+.div-3 {
+  grid-area: 6/9/9/12;
+  background-color: black;
+}
